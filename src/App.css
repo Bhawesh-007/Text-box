@@ -9,4 +9,21 @@
   justify-content: center;
   margin-bottom: 4px;
 }
+.page {
+  min-height: 100vh;
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.dark-page {
+  background-color: #3c3b3b; 
+  color: white;
+}
+.bg-gray-transparent {
+  background-color: rgba(174, 186, 186, 0.5); 
+}
+.text-white::placeholder{
+  color:white
+}
 
