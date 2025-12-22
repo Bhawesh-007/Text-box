@@ -14,7 +14,7 @@ function App() {
     <>
     <Navbar mode = {color} togglemode ={togglemode}/>
     <Textbox heading ="Enter Text To Analyze"/>
-
+    
     </>
 
   )

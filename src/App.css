@@ -17,6 +17,37 @@
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
+.preview-box {
+  background-color: #0d6efd;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 1rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.preview-section p {
+  margin: 6px 0;
+  font-weight: 400;
+}
+
+.btn-group-custom {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+textarea {
+  resize: none;
+}
+
+.output-box {
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
 
 @keyframes logo-spin {
   from {
