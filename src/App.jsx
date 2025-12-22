@@ -13,8 +13,12 @@ function App() {
   }
   return (
     <>
+     <div className={color==='black'?"page dark-page":"page"}>
     <Navbar mode = {color} togglemode ={togglemode}/>
-    <Textbox heading ="Enter Text To Analyze"/>
+    
+    <Textbox heading ="Enter Text To Analyze" mode ={color}/>
+    </div>
+   
     
     </>
 
