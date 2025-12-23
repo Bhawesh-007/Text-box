@@ -1,6 +1,6 @@
 import React from 'react'
-import Navbar from '../../components/Navbar'
-import Textbox from '../../components/Textbox';
+import Navbar from '/components/Navbar'
+import Textbox from '/components/Textbox';
 import './App.css'
 import {useState} from 'react'
 
