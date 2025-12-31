@@ -6,15 +6,18 @@ function Textbox(props) {
 
   const conv_upper = () => {
     setDeftext(deftext.toUpperCase());
+    props.showAlert("Success !!" , "Converted to Upper-Case")
   };
 
   const conv_lower = () => {
     setDeftext(deftext.toLowerCase());
+     props.showAlert("Success !!" , "Converted to Lower-Case")
   };
 
   const clear_iti = () => {
     setDeftext("");
     setText("");
+    props.showAlert("Success !!" , "Cleared")
   };
 
   const get_json = () => {
